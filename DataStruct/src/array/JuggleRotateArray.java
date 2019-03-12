@@ -26,9 +26,10 @@ public class JuggleRotateArray {
 	public static void main(String[] args) {
 		// Driver program
 		JuggleRotateArray jugArr = new JuggleRotateArray();
-		int arr[] = new int [100];
+		
 		System.out.println("Enter the aray size ");
 		int n = sc.nextInt();
+		int arr[] = new int [n];
 		System.out.println("Enter the number of rotation");
 		int d = sc.nextInt();
 		System.out.println("Enter the array elements ");
